@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(84, 83, 82);
+    background-color: rgb(241, 155, 49);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.persona-card {
+    background: rgb(245, 187, 117);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(116, 145, 230, 0.1);
+    max-width: 1200px;
+    text-align: center;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes image circular */
+    object-fit: cover; /* Prevents image stretching */
+}
+
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.column {
+    width: 45%;
+}
+
+
+/* Add your own colors below based on your Vibe! */
+h1 { color: #7c97e3; }
+h3 { color: #809be7; border-bottom: 2px solid #f38b46; }
